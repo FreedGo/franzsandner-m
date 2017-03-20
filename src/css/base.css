@@ -1,0 +1,47 @@
+body{
+	max-width:12.8rem;
+	min-width:6.4rem;
+	margin:0 auto;
+}
+img{
+	max-width:100%;
+}
+
+
+/*头部*/
+.header{
+	background-color: #ce7c4f;
+	height:1rem;
+	-webkit-box-shadow: 0 0.05rem 0.1rem 0.1rem rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0.05rem 0.1rem 0.1rem rgba(0,0,0,0.2);
+	box-shadow: 0 0.05rem 0.1rem 0.1rem rgba(0,0,0,0.2);
+	position: relative;
+	z-index: 1000;
+}
+.logo{
+	width: 1.86rem;
+	height:1rem;
+	padding-top:0.3rem;
+}
+.nav-warp{
+	margin-left: 1.86rem;
+	overflow: hidden;
+	line-height:1rem;
+	height:1rem;
+	overflow-x: scroll;
+}
+header a{
+	color: #fff;
+	font-size: 0.36rem;
+}
+ul.nav{
+	width:10rem;
+}
+.nav>li>a{
+	padding: 0 15px;
+}
+.nav .active{
+	border-bottom: #f8f8f8 solid 0.04rem;
+	line-height:0.96rem;
+
+}
